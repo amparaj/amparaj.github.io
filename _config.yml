@@ -1,0 +1,11 @@
+title: "Ash Parajuli's Blog"
+description: "Transport Modeller, Transport Analyst"
+author: Ash Parajuli
+theme: jekyll-theme-minimal  # You can choose any GitHub Pages theme here
+
+# Navigation links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
