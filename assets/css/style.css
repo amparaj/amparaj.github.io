@@ -75,3 +75,39 @@ h1 {
   line-height: 1.6;
   margin-bottom: 1em;
 }
+
+/* Resume Header */
+.resume-header {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.resume-header h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.resume-header p {
+  font-size: 1em;
+  margin: 0;
+}
+
+/* Job Titles and Institutions */
+h3, h4 {
+  font-weight: bold;
+  color: #555;
+}
+
+.resume-section {
+  margin-bottom: 1.5em;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
