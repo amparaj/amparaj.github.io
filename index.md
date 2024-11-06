@@ -8,7 +8,7 @@ title: "weblog"
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-      <p>{{ post.excerpt | truncatewords: 20 }}</p> <!-- Shows first 20 words as a preview -->
+      <p>{{ post.excerpt | truncatewords: 20 }}</p>
     </li>
   {% endfor %}
 </ul>
