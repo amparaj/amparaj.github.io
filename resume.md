@@ -4,6 +4,7 @@ title: "Resume"
 ---
 
 # Ash Parajuli
+{: .resume-header }
 
 **Transport Modeller, Transport Analyst**  
 amparajuli@gmail.com  
@@ -12,6 +13,7 @@ amparajuli@gmail.com
 ---
 
 ## Experience
+{: .resume-section }
 
 **Principal Transport Modeller - Transit & Accessibility Modelling**  
 Queensland Department of Transport and Main Roads, Brisbane Australia 
@@ -30,6 +32,7 @@ _2016 - 2017_
 ---
 
 ## Education
+{: .resume-section }
 
 **Masters of Urban and Regional Planning**  
 University of Queensland, St Lucia, Brisbane Australia  
