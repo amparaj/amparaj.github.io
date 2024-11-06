@@ -1,5 +1,6 @@
 title: "Ash Parajuli"
 description: "Transport Modeller, Transport Analyst"
 theme: jekyll-theme-minimal
+permalink: /:year/:month/:day/:title/
 paginate: 5
 paginate_path: "/page:num/"
