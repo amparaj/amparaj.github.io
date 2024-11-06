@@ -10,40 +10,30 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation Styling */
+/* Horizontal Navigation Banner Styling */
 .nav-bar {
   background-color: #333;
   padding: 10px 0;
   text-align: center;
-  margin-bottom: 20px; /* Adds space between navigation and content */
-}
-
-.nav-bar ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.nav-bar ul li {
-  display: inline;
 }
 
 .nav-bar a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  margin: 0 15px; /* Space between links */
+  display: inline-block;
 }
 
 .nav-bar a:hover {
-  color: #ffd700;
+  color: #ffd700; /* Highlight color on hover */
 }
 
 /* Content Styling */
 main {
   width: 80%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px auto; /* Adds space between navigation and content */
   padding: 20px;
 }
 
