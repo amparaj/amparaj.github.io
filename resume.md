@@ -7,8 +7,8 @@ title: "Resume"
 {: .resume-header }
 
 **Transport Modeller, Transport Analyst**  
-[\[Email\]  ](amparajuli@gmail.com)
-[\[LinkedIn Profile\]  ](https://www.linkedin.com/in/amparajuli/)
+[Email](mailto:amparajuli@gmail.com) | [LinkedIn Profile](https://www.linkedin.com/in/amparajuli/)
+
 
 ---
 
