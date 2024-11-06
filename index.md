@@ -10,7 +10,13 @@ title: "weblog"
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-      <p>{{ post.excerpt | truncatewords: 20 }}</p> <!-- Show first 20 words -->
+      
+      <!-- Show the author's name if it's provided -->
+      {% if post.author %}
+        <p>by {{ post.author }}</p>
+      {% endif %}
+      
+      <p>{{ post.excerpt | truncatewords: 20 }}</p> <!-- Show first 20 words of the excerpt -->
     </li>
   {% endfor %}
 </ul>
