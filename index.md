@@ -3,8 +3,6 @@ layout: default
 title: "weblog"
 ---
 
-# Latest posts
-
 <ul class="post-list">
   {% for post in site.posts %}
     <li>

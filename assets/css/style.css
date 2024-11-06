@@ -44,6 +44,8 @@ h1 {
 /* Post List Styling */
 .post-list {
   margin-top: 20px;
+  list-style-type: none; /* Removes bullets */
+  padding: 0; /* Removes default padding */
 }
 
 .post-list li {
