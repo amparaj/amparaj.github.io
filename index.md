@@ -5,15 +5,12 @@ title: "weblog"
 
 # Latest posts
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-      
-      <!-- Removed the author section -->
-      
-      <p>{{ post.excerpt | truncatewords: 20 }}</p> <!-- Show first 20 words of the excerpt -->
+      <p>{{ post.excerpt | truncatewords: 20 }}</p> <!-- Shows first 20 words as a preview -->
     </li>
   {% endfor %}
 </ul>

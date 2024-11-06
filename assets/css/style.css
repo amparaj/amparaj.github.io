@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation Styling */
+.nav-bar {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px; /* Adds space between navigation and content */
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-bar ul li {
+  display: inline;
+}
+
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  color: #ffd700;
+}
+
+/* Content Styling */
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Post List Styling */
+.post-list {
+  margin-top: 20px;
+}
+
+.post-list li {
+  margin-bottom: 15px;
+}
+
+.post-list a {
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+}
+
+.post-list small {
+  color: #888;
+  display: block;
+  margin-top: 5px;
+}
