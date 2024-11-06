@@ -7,8 +7,9 @@ title: "Resume"
 {: .resume-header }
 
 **Transport Modeller, Transport Analyst**  
-amparajuli@gmail.com  
-[\[Your LinkedIn Profile or Portfolio Link\]  ](https://www.linkedin.com/in/amparajuli/)
+[\Email\] (amparajuli@gmail.com)
+[\[LinkedIn Profile\]  ](https://www.linkedin.com/in/amparajuli/)
+
 
 ---
 
@@ -21,13 +22,15 @@ _2017 - Present_
 
 - Responsibilities and achievements.
 - Accomplishments.
-  
+
+
 **Transport Modeller**  
 SMEC, Brisbane Australia
 _2016 - 2017_
 
 - Responsibilities and achievements.
 - Accomplishments.
+
 
 ---
 
@@ -38,13 +41,17 @@ _2016 - 2017_
 University of Queensland, St Lucia, Brisbane Australia  
 _2014 - 2016_
 
-- Relevant courses
+- Land Use Planning
+- Transport Planning
+- Applied Demography
+
 
 ---
 
 ## Skills
 
 - Python, Data Analysis, GIS, Transport Modelling
+
 
 ---
 
