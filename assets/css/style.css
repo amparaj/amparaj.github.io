@@ -69,3 +69,9 @@ h1 {
   display: block;
   margin-top: 5px;
 }
+
+/* Ensure spacing between paragraphs */
+.post-content p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
