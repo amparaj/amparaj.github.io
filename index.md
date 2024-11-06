@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Blog"
+title: "weblog"
 ---
 
-# Latest Blog Posts
+# Latest posts
 
 <ul>
   {% for post in site.posts %}
