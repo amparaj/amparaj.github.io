@@ -1,14 +1,15 @@
 ---
 layout: default
-title: "Ash Parajuli"
+title: "weblog"
 ---
 
-# Ash Parajuli
-**Transport Modeller, Transport Analyst**
-
-<p>Welcome to my site! Here you can find my blog posts and links to my work.</p>
+# Latest posts
 
 <ul>
-    <li><a href="https://github.com/amparaj" class="icon brands fa-github">GitHub</a></li>
-    <li><a href="mailto:amparajuli@gmail.com" class="icon solid fa-envelope">Email</a></li>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    </li>
+  {% endfor %}
 </ul>
