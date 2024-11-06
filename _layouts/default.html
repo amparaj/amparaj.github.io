@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   </head>
   <body>
-
-    <!-- Horizontal Navigation Banner -->
-    <nav class="nav-bar">
-      <a href="{{ "/" | relative_url }}">Home</a>
-      <a href="{{ "/resume" | relative_url }}">Resume</a>
-      <a href="{{ "/projects" | relative_url }}">Projects</a>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/resume">Resume</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
     </nav>
 
-    <!-- Main Content -->
-    <main>
+    <div class="content">
       {{ content }}
-    </main>
+    </div>
 
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} - Ash Parajuli</p>
+    </footer>
   </body>
 </html>
