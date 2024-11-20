@@ -9,7 +9,6 @@ Pandas is a powerful python library for data manipulation and analysis. I've lea
 
 ## Working with parquet files
 - Important to install right dependencies like pyarrow or fastparquet for handling such files in pandas.
----
 
 ## Monitoring loading of large data files
 - Integrating tqdm in the code to see a progress bar
@@ -35,7 +34,6 @@ print(df.info())
 
 ## Using tqdm for DataFrame iteration
 - Iterating through rows or applying transformations on large datasets can be monitored via a progress bar using tqdm.
----
 
 ## Grouping without aggregation
 - This one is relatively simple concept but handy to know.
