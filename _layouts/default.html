@@ -3,21 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   </head>
   <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+          <a href="{{ "/" | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+          <a href="{{ "/projects/" | relative_url }}"{% if page.url contains "/projects" %} aria-current="page"{% endif %}>Projects</a>
+        </nav>
+      </div>
+    </header>
 
-    <!-- Horizontal Navigation Banner -->
-    <nav class="nav-bar">
-      <a href="{{ "/" | relative_url }}">Home</a>
-      <a href="{{ "/resume" | relative_url }}">Resume</a>
-      <a href="{{ "/projects" | relative_url }}">Projects</a>
-    </nav>
-
-    <!-- Main Content -->
-    <main>
+    <main class="wrap">
       {{ content }}
     </main>
 
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</span>
+        <span class="footer-links">
+          <a href="https://github.com/{{ site.social.github }}">GitHub</a>
+          <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/">LinkedIn</a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,14 @@
+<article class="card">
+  <h3 class="card-title"><a href="{{ include.project.site | default: include.project.repo }}">{{ include.project.name }}</a></h3>
+  {% if include.project.tagline %}<p class="card-tagline">{{ include.project.tagline }}</p>{% endif %}
+  <p>{{ include.project.description }}</p>
+  {% if include.project.tags %}
+  <ul class="tags">
+    {% for tag in include.project.tags %}<li>{{ tag }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  <p class="card-links">
+    {% if include.project.site %}<a class="button" href="{{ include.project.site }}">Live site &rarr;</a>{% endif %}
+    {% if include.project.repo %}<a class="button button-ghost" href="{{ include.project.repo }}">Source on GitHub</a>{% endif %}
+  </p>
+</article>

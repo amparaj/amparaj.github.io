@@ -1,0 +1,11 @@
+- name: xP-FPL
+  tagline: Expected Points for Fantasy Premier League
+  description: >-
+    A machine learning sandbox that forecasts expected points (xP) for every
+    Fantasy Premier League player and optimises squad selection: starting XI,
+    captaincy, transfers and chip timing, with Monte Carlo simulation to show
+    the range of likely outcomes.
+  tags: [Python, PyTorch, LightGBM, PuLP, React, TypeScript]
+  site: https://amparaj.github.io/xpfpl/
+  repo: https://github.com/amparaj/xpfpl
+  featured: true

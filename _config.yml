@@ -1,6 +1,17 @@
 title: "Ash Parajuli"
-description: "Transport Modeller, Transport Analyst"
+description: "Transport modeller and analyst in Brisbane, writing about Python, data and side projects."
+author: Ash Parajuli
+url: "https://amparaj.github.io"
 theme: jekyll-theme-minimal
 permalink: /:year/:month/:day/:title/
-paginate: 5
-paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-seo-tag
+
+social:
+  github: amparaj
+  linkedin: amparajuli
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<div class="container">
-  <header>
+<article class="post">
+  <header class="post-header">
+    <p class="meta"><a href="{{ "/" | relative_url }}">&larr; All posts</a></p>
     <h1>{{ page.title }}</h1>
-    <p><small>{{ page.date | date: "%-d %B %Y" }}{% if page.author %} by {{ page.author }}{% endif %}</small></p>
+    <p class="meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} · {{ page.author }}{% endif %}</p>
   </header>
-  
+
   <div class="post-content">
     {{ content }}
   </div>
-</div>
+</article>
