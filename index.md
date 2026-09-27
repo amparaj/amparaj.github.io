@@ -4,7 +4,7 @@ title: Home
 ---
 
 <section class="intro">
-  <h1>Hi, I'm Ash.</h1>
+  <h1>Hi, I'm Ayush.</h1>
   <p>I'm a travel demand modeller based in Brisbane, Australia, with a focus on strategic transport demand, economics, and choice modelling. My daily work involves developing and maintaining complex transport models to inform planning and economic policy decisions, as well as to solve infrastructure challenges. I am also passionate about building custom models in Python, particularly integrating machine learning techniques into spatial and economic problems. I use this site to write up my technical learnings and share my side projects.</p>
 </section>
 
