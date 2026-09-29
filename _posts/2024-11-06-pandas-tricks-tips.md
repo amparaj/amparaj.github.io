@@ -2,7 +2,7 @@
 layout: post
 title: "Interesting pandas tips and tricks"
 date: 2024-11-06
-author: Ayush Parajuli
+author: Ash Parajuli
 ---
 
 Pandas is a powerful python library for data manipulation and analysis. I've learned some interesting pandas techniques that I thought is worth documenting for others and also as a personal learning.
