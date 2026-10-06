@@ -5,11 +5,11 @@ title: Home
 
 <section class="intro">
   <h1>Hi, I'm Ash.</h1>
-  <p>I'm a travel demand modeller based in Brisbane, Australia, with a focus on strategic transport demand, urban transport and economics. My daily work involves developing and maintaining complex transport models to inform planning and economic policy decisions, as well as to solve infrastructure challenges. Outside work, I'm passionate about analytics and modelling to help solve whatever problem catches my interest, from spatial and economic questions to predicting player points in Fantasy Premier League. I use this site to write up my technical learnings and share my side projects.</p>
+  <p>I'm a travel demand modeller based in Brisbane, Australia, with a focus on strategic transport demand, urban transport and economics. My daily work involves developing and maintaining complex transport models to inform planning and economic policy decisions, as well as to solve infrastructure challenges. Outside work, I'm passionate about analytics and modelling to help solve whatever problem catches my interest, from spatial and economic questions to forecasting Formula 1 races and predicting player points in Fantasy Premier League. I use this site to write up my technical learnings and share my side projects.</p>
 </section>
 
 <section>
-  <h2 class="section-heading">Featured project</h2>
+  <h2 class="section-heading">Featured projects</h2>
   {% assign featured = site.data.projects | where: "featured", true %}
   {% for project in featured %}
     {% include project-card.html project=project %}
